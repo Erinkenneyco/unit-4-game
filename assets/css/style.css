@@ -1,0 +1,20 @@
+jumbotron{
+	text-align: center;
+    margin-top: 10px;
+    font-family: fantasy;
+} 
+
+.JewelStyle{
+    width: 75px;
+    height: 75px;
+}
+
+.panel-heading{
+	background-color: #F1D487;
+}
+
+#panelStyle{
+	float:left;
+	margin: 10px 20px 10px 0px;
+}
+    

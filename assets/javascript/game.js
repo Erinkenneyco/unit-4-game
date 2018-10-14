@@ -1,3 +1,4 @@
+
 //sets up random number user is trying to match
 $( document ).ready(function(){
     var Random=Math.floor(Math.random()*101+19)
@@ -12,7 +13,6 @@ var losses = 0;
 $('#numberWins').text(wins);
 $('#numberLosses').text(losses);		
 
-
 //sets up random numbers for each jewel
 function fourRandomNumbers(){
 for (var i = 0; i < 4; i++) {
@@ -23,7 +23,6 @@ console.log(GeneratedNumbers)
 }
 
 fourRandomNumbers();
-
 
 //resets the game
 function reset(){
@@ -51,8 +50,6 @@ alert ("You lose!!");
     $('#numberLosses').text(losses);
     reset();
 }
-
-
 
 //sets up click for jewels
     $('#one').on ('click', function(){

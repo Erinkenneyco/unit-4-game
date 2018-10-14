@@ -1,20 +1,60 @@
-jumbotron{
+body{
+    background-image:url("free-gemstone-background-vectors.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.jumbotron{
 	text-align: center;
     margin-top: 10px;
-    font-family: fantasy;
+    font-family: monospace;
+    font-style: strong;
+    background:rgb(230, 185, 185);
+    border-style: solid;
+    border-width: 9px;
+    border-color: palevioletred;
+    
 } 
 
 .JewelStyle{
     width: 75px;
     height: 75px;
+    padding:8px;
+    
 }
 
 .panel-heading{
-	background-color: #F1D487;
+    background-color:palevioletred;
+    text-align: center;
+    border-style: solid;
+    border-width:8px;
+    border-radius:5px;
+    border-color: rgb(230, 185, 185); 
+    margin-bottom: 10px;
+}
+
+.panel-body{
+    background-color:black;
+    color:palevioletred; 
+    border-style:solid;
+    border-radius:5px;
+    border-width:8px;
+    border-color: rgb(230, 185, 185);
+    padding-left:20px;
+    padding-top:10px;
 }
 
 #panelStyle{
 	float:left;
 	margin: 10px 20px 10px 0px;
 }
+h4 {
+    color:palevioletred;
+    padding:5px;
+}
+
     
